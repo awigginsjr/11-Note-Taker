@@ -8,7 +8,7 @@ An application called Note Taker that can be used to write and save notes.
 
 The following image demonstrates the web application's appearance and functionality:
 
-![screenshot](***)
+![screenshot](/public/assets/images/notetakerscreenshot.png)
 
 ## Usage
 

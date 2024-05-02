@@ -7,7 +7,6 @@ const fs = require('fs');
 // imports the uuid module in Node.js generating universally unique identifiers 
 const { v4: uuidv4 } = require('uuid');
 
-
 const readFileAsync = util.promisify(fs.readFile);
 const writeFileAsync = util.promisify(fs.writeFile);
 
@@ -23,7 +22,7 @@ class Store {
     }
     // writes JSON-formatted data
     async write(note){
-        await writeFileAsync('db/bd.json', JSON.stringify(note));
+        await writeFileAsync('db/db.json', JSON.stringify(note));
     }
 
     // retrieves the notes data
@@ -36,7 +35,7 @@ class Store {
     async addNote(note) {
         const { title, text } = note;
 
-        if (title || !text) {
+        if (!title || !text) {
             throw new Error("Please note that 'title' and 'text' can not be left blank");
         }
 
@@ -54,3 +53,4 @@ class Store {
         await this.write(filteredNotes);
     }
 }
+module.exports = Store

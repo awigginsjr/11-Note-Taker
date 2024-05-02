@@ -1,6 +1,37 @@
 [
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
+  {
+    "title": "5AM Workouts",
+    "text": "Monday, Wednesday, & Friday",
+    "id": "9f68296a-ee8b-4b83-bf0d-e4bc92310f43"
+  },
+  {
+    "title": "Walk Grogu",
+    "text": "Walk and feed the dog",
+    "id": "95c5af1a-f0ad-40c7-bc12-7bb084a93da0"
+  },
+  {
+    "title": "Take Lole to School",
+    "text": "Mon - Fri 8am drop off\nMon - Fri 2:30pm Pick up",
+    "id": "c72aa949-6d74-4540-bdac-0a5df52cff41"
+  },
+  {
+    "title": "Breakfast",
+    "text": "Eggs, Grits, Yogurt and Fruit",
+    "id": "21032575-2f99-4430-999e-7827bb38e6ca"
+  },
+  {
+    "title": "Lunch",
+    "text": "Turkey Wrap",
+    "id": "7eb77865-e87a-40ce-bd8b-780b6274b0c7"
+  },
+  {
+    "title": "Dinner",
+    "text": "Pizza and Wings ",
+    "id": "403b6b74-3283-4778-b31f-426afefa02ba"
+  },
+  {
+    "title": "Pick up Sneakers",
+    "text": "From BlackSheep",
+    "id": "f70ff992-1f10-4e1d-b4c5-5a882ddf6795"
+  }
 ]
